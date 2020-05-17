@@ -12,7 +12,7 @@ _OakSpeechText2A::
 	text "This world is"
 	line "inhabited by"
 	cont "people making"
-	cont "Minimum wage."
+	cont "Minimum wage"
 
 _OakSpeechText2B::
 	text $51,"For some people,"
@@ -35,7 +35,7 @@ _IntroduceRivalText::
 	text "This is my grand-"
 	line "son. He's been"
 	cont "employed at wendys"
-	cont "since he was a baby"
+	cont "since hes a baby"
 
 	para "He was just bron"
 	line "please name him."
