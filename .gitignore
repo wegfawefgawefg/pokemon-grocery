@@ -1,5 +1,5 @@
 *.*bpp
-*.*bpp
+*.pic
 audio_blue.o
 audio_red.o
 main_blue.o
