@@ -1,0 +1,14 @@
+pic/
+gfx/
+audio_blue.o
+audio_red.o
+main_blue.o
+main_red.o
+pokeblue.gbc
+pokeblue.sym
+pokered.gbc
+pokered.sym
+text_blue.o
+text_red.o
+wram_blue.o
+wram_red.o
