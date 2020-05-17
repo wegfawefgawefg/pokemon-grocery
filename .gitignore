@@ -12,3 +12,5 @@ text_blue.o
 text_red.o
 wram_blue.o
 wram_red.o
+*.sav
+*.ss*
