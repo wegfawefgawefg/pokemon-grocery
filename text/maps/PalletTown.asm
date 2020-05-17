@@ -18,32 +18,32 @@ _OakWalksUpText::
 
 _PalletTownText2::
 	text "I'm raising"
-	line "#MON too!"
+	line "employees too!"
 
-	para "When they get"
-	line "strong, they can"
-	cont "protect me!"
+	para "When I get"
+	line "money, they can"
+	cont "fear me!"
 	done
 
 _PalletTownText3::
-	text "Technology is"
-	line "incredible!"
+	text "Obesity is"
+	line "sexualised!"
 
 	para "You can now store"
-	line "and recall items"
-	cont "and #MON as"
-	cont "data via PC!"
+	line "and retain"
+	cont "weight via"
+	cont "nutrisystem"
 	done
 
 _PalletTownText4::
-	text "OAK #MON"
-	line "RESEARCH LAB"
+	text "Ditch Digger's"
+	line "UNION"
 	done
 
 _PalletTownText5::
-	text "PALLET TOWN"
-	line "Shades of your"
-	cont "journey await!"
+	text "This sign has"
+	line "tested positive"
+	cont "for COVID-19"
 	done
 
 _PalletTownText6::
