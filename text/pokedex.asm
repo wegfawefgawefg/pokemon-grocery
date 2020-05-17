@@ -298,6 +298,17 @@ _TangelaDexEntry::
 	next "shake as it walks"
 	dex
 
+_FatmanDexEntry::
+	text "Super lazy "
+	next "piece of shit."
+	next "All he does is"
+
+	page "eat. Growing"
+	next "quickly. One day"
+	next "his heart will"
+	next "stop."
+	dex
+
 _GrowlitheDexEntry::
 	text "Very protective"
 	next "of its territory."
