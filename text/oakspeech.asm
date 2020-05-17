@@ -2,6 +2,7 @@ _OakSpeechText1::
 	text "Oh shit"
 	line "my..."
 	cont "dick out"
+	cont " "
 
 	para "I am RICHARD"
 	line "People call me"
@@ -28,14 +29,15 @@ _OakSpeechText2B::
 
 _IntroducePlayerText::
 	text "First, what is"
-	line "your bank password?"
+	line "your bank info?"
 	prompt
 
 _IntroduceRivalText::
 	text "This is my grand-"
 	line "son. He's been"
-	cont "employed at wendys"
-	cont "since hes a baby"
+	cont "employed at"
+	cont "wendys since"
+	cont "hes a baby"
 
 	para "He was just bron"
 	line "please name him."
