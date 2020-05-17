@@ -1,55 +1,57 @@
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "Oh shit"
+	line "my..."
+	cont "dick out"
+	cont " "
 
-	para "My name is OAK!"
+	para "I am RICHARD"
 	line "People call me"
-	cont "the #MON PROF!"
+	cont "Dick"
 	prompt
 
 _OakSpeechText2A::
 	text "This world is"
 	line "inhabited by"
-	cont "creatures called"
-	cont "#MON!@@"
+	cont "people making"
+	cont "Minimum wage"
 
 _OakSpeechText2B::
 	text $51,"For some people,"
-	line "#MON are"
+	line "employees are"
 	cont "pets. Others use"
 	cont "them for fights."
 
 	para "Myself..."
 
-	para "I study #MON"
+	para "I dig ditches"
 	line "as a profession."
 	prompt
 
 _IntroducePlayerText::
 	text "First, what is"
-	line "your name?"
+	line "your bank info?"
 	prompt
 
 _IntroduceRivalText::
 	text "This is my grand-"
 	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	cont "employed at"
+	cont "wendys since"
+	cont "hes a baby"
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "He was just bron"
+	line "please name him."
 	prompt
 
 _OakSpeechText3::
-	text "<PLAYER>!"
+	text "ALAS!"
 
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
+	para "A long dick is"
+	line "only hard"
+	cont "twice a day!"
 
-	para "A world of dreams"
-	line "and adventures"
+	para "A world of slavery"
+	line "and creditcard debt"
 	cont "with #MON"
 	cont "awaits! Let's go!"
 	done
