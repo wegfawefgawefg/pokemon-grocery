@@ -74,36 +74,34 @@ _OaksLabText_1d2f5::
 
 _OaksLabText_1d2fa::
 	text "OAK: <PLAYER>,"
-	line "raise your young"
-	cont "#MON by making"
-	cont "it fight!"
+	line "go fill out"
+	cont "Worker's Comp"
+	cont "after that loss."
+	cont "The Viridian City"
+	cont "Convenient Store"
+	cont "clerk has the"
+	cont "papers."
 	done
 
-_OaksLabDeliverParcelText1::
-	text "OAK: Oh, <PLAYER>!"
+_OaksLabDeliverWorkersCompText1::
+	text "Welcome valued"
+	line "employee."
 
-	para "How is my old"
-	line "#MON?"
+	para "Did you fill out"
+	line "Worker's Comp?"
 
-	para "Well, it seems to"
-	line "like you a lot."
-
-	para "You must be"
-	line "talented as a"
-	cont "#MON trainer!"
-
-	para "What? You have"
-	line "something for me?"
+	para "Ah thanks."
+	line "Now your ass is"
+	cont "mine."
 
 	para "<PLAYER> delivered"
-	line "OAK's PARCEL.@@"
+	line "WORKER's COMP.@@"
 
-_OaksLabDeliverParcelText2::
+_OaksLabDeliverWorkersCompText2::
 	text ""
-	para "Ah! This is the"
-	line "custom # BALL"
-	cont "I ordered!"
-	cont "Thank you!"
+	para "Get to work."
+	line "I don't pay you"
+	cont "to jerk off."
 	done
 
 _OaksLabAroundWorldText::

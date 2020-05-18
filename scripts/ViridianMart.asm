@@ -6,7 +6,7 @@ ViridianMart_Script:
 	jp CallFunctionInTable
 
 ViridianMartScript_1d47d:
-	CheckEvent EVENT_OAK_GOT_PARCEL
+	CheckEvent EVENT_OAK_GOT_WORKERS_COMP
 	jr nz, .asm_1d489
 	ld hl, ViridianMart_TextPointers
 	jr .asm_1d48c
@@ -52,9 +52,9 @@ ViridianMartScript1:
 	ld a, $5
 	ld [hSpriteIndexOrTextID], a
 	call DisplayTextID
-	lb bc, OAKS_PARCEL, 1
+	lb bc, WORKERS_COMP, 1
 	call GiveItem
-	SetEvent EVENT_GOT_OAKS_PARCEL
+	SetEvent EVENT_GOT_WORKERS_COMP
 	ld a, $2
 	ld [wViridianMartCurScript], a
 	; fallthrough
@@ -81,7 +81,7 @@ ViridianMartText4:
 	db "@"
 
 ViridianMartText5:
-	TX_FAR ViridianMartParcelQuestText
+	TX_FAR ViridianMartWorkersCompQuestText
 	TX_SFX_KEY_ITEM
 	db "@"
 

@@ -1,15 +1,15 @@
 _OakAppearsText::
 	text "OAK: Hey! Wait!"
-	line "Don't go out!@@"
+	line "Shithead!@@"
 
 _OakWalksUpText::
-	text "OAK: It's unsafe!"
-	line "Wild #MON live"
-	cont "in tall grass!"
+	text "OAK: It's ILLEGAL!"
+	line "You don't have"
+	cont "a job!"
 
 	para "You need your own"
-	line "#MON for your"
-	cont "protection."
+	line "credit card for"
+	cont "life and stuff."
 	cont "I know!"
 
 	para "Here, come with"

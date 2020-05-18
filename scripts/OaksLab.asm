@@ -597,7 +597,7 @@ OaksLabScript16:
 	ld [hSpriteIndexOrTextID], a
 	call DisplayTextID
 	SetEvent EVENT_GOT_POKEDEX
-	SetEvent EVENT_OAK_GOT_PARCEL
+	SetEvent EVENT_OAK_GOT_WORKERS_COMP
 	ld a, HS_LYING_OLD_MAN
 	ld [wMissableObjectIndex], a
 	predef HideObject
@@ -650,19 +650,19 @@ OaksLabScript17:
 OaksLabScript18:
 	ret
 
-OaksLabScript_RemoveParcel:
+OaksLabScript_RemoveWorkersComp:
 	ld hl, wBagItems
 	ld bc, $0000
 .loop
 	ld a, [hli]
 	cp $ff
 	ret z
-	cp OAKS_PARCEL
-	jr z, .foundParcel
+	cp WORKERS_COMP
+	jr z, .foundWorkersComp
 	inc hl
 	inc c
 	jr .loop
-.foundParcel
+.foundWorkersComp
 	ld hl, wNumBagItems
 	ld a, c
 	ld [wWhichPokemon], a
@@ -1001,16 +1001,16 @@ OaksLabText5:
 	call PrintText
 	jr .asm_1d2ed
 .asm_1d2a9
-	ld b, OAKS_PARCEL
+	ld b, WORKERS_COMP
 	call IsItemInBag
 	jr nz, .asm_1d2b8
 	ld hl, OaksLabText_1d2fa
 	call PrintText
 	jr .asm_1d2ed
 .asm_1d2b8
-	ld hl, OaksLabDeliverParcelText
+	ld hl, OaksLabDeliverWorkersCompText
 	call PrintText
-	call OaksLabScript_RemoveParcel
+	call OaksLabScript_RemoveWorkersComp
 	ld a, $f
 	ld [wOaksLabCurScript], a
 	jr .asm_1d2ed
@@ -1044,10 +1044,10 @@ OaksLabText_1d2fa:
 	TX_FAR _OaksLabText_1d2fa
 	db "@"
 
-OaksLabDeliverParcelText:
-	TX_FAR _OaksLabDeliverParcelText1
+OaksLabDeliverWorkersCompText:
+	TX_FAR _OaksLabDeliverWorkersCompText1
 	TX_SFX_KEY_ITEM
-	TX_FAR _OaksLabDeliverParcelText2
+	TX_FAR _OaksLabDeliverWorkersCompText2
 	db "@"
 
 OaksLabAroundWorldText:

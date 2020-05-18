@@ -2957,6 +2957,12 @@ _ItemUseNotTimeText::
 	cont "time to use that! "
 	prompt
 
+_ItemUseFillOutWorkersCompText::
+	text "You filled out"
+	line "the worker's comp"
+	cont "form."
+	prompt
+
 _ItemUseNotYoursToUseText::
 	text "This isn't yours"
 	line "to use!"

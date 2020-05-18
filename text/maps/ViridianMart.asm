@@ -8,16 +8,21 @@ _ViridianMartText4::
 	line "PALLET TOWN?"
 	done
 
-ViridianMartParcelQuestText::
-	text "You know PROF."
-	line "OAK, right?"
+ViridianMartWorkersCompQuestText::
+	text "You here to fill"
+	line "out a form?"
 
-	para "His order came in."
-	line "Will you take it"
-	cont "to him?"
+	para "Worker's Comp."
+	line "form right?"
 
 	para "<PLAYER> got"
-	line "OAK's PARCEL!@@"
+	line "WORKER's COMP!@@"
+
+	para "Here's a pen."
+	line "Fill it out. and"
+	cont "take it"
+	cont "to him?"
+	done
 
 _ViridianMartText2::
 	text "This shop sells"

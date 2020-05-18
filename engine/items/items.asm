@@ -85,7 +85,7 @@ ItemUsePtrTable:
 	dw ItemUseXStat      ; X_SPEED
 	dw ItemUseXStat      ; X_SPECIAL
 	dw ItemUseCoinCase   ; COIN_CASE
-	dw ItemUseOaksParcel ; OAKS_PARCEL
+	dw ItemUseWorkersComp; WORKERS_COMP
 	dw ItemUseItemfinder ; ITEMFINDER
 	dw UnusableItem      ; SILPH_SCOPE
 	dw ItemUsePokeflute  ; POKE_FLUTE
@@ -1960,8 +1960,8 @@ FishingInit:
 	scf ; can't fish when surfing
 	ret
 
-ItemUseOaksParcel:
-	jp ItemUseNotYoursToUse
+ItemUseWorkersComp:
+	jp ItemUseFillOutWorkersComp
 
 ItemUseItemfinder:
 	ld a, [wIsInBattle]
@@ -2330,6 +2330,10 @@ ItemUseNotTime:
 	ld hl, ItemUseNotTimeText
 	jr ItemUseFailed
 
+ItemUseFillOutWorkersComp:
+	ld hl, ItemUseFillOutWorkersCompText
+	jr ItemUseFailed
+
 ItemUseNotYoursToUse:
 	ld hl, ItemUseNotYoursToUseText
 	jr ItemUseFailed
@@ -2365,6 +2369,10 @@ ItemUseFailed:
 
 ItemUseNotTimeText:
 	TX_FAR _ItemUseNotTimeText
+	db "@"
+
+ItemUseFillOutWorkersCompText:
+	TX_FAR _ItemUseFillOutWorkersCompText
 	db "@"
 
 ItemUseNotYoursToUseText:
